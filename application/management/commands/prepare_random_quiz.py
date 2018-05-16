@@ -17,4 +17,4 @@ class Command(BaseCommand):
             questions = list(Question.objects.filter(category=category))
             quiz.question.add(*questions)
             quiz.save()
-        self.stdout.write(self.style.SUCCESS('First custom command'))
+        self.stdout.write(self.style.SUCCESS('Quiz Created'))
