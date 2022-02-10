@@ -1,4 +1,4 @@
-Django==2.2.24
+Django==2.2.27
 django-extensions==2.0.7
 djangorestframework==3.11.2
 Pillow==9.0.0
